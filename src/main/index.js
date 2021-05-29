@@ -73,7 +73,7 @@ function MainPage() {
                         className="product-avatar"
                         src="images/icons/avatar.png"
                       />
-                      <span>{products.seller}</span>
+                      <span>{product.seller}</span>
                     </div>
                     <span className="product-date">
                       {dayjs(product.createdAt).fromNow()}
